@@ -26,6 +26,7 @@
       </p>
     </header>
 
+    <!-- Fonts - Feature Section -->
     <section class="feature">
       <div class="feature__container">
         <div class="feature__item">
@@ -58,6 +59,9 @@
             paths.
         </div>
       </div>
+      <div class="feature__image-container">
+        <img class="feature__image" src="images/features.jpg" alt="Feature Image">
+      </div>
     </section>
 
     <section class="cta">
@@ -68,6 +72,7 @@
       <button class="cta__button cta__button--primary">Learn More</button>
     </section>
       
+    <!-- Box Model - Video section -->
     <section class="video">
       <h3 class="video__title">Grow Your Child's Future</h3>
       <p class="video__description">
@@ -84,5 +89,78 @@
           
         </div>
     </section>
+
+    <!-- Flexbox - Program section -->
+     <section class="programs">
+      <h2>Explore Our State of the Art Facilities and Enriching Learning Experience</h2>
+     
+     <div class="programs__cards">
+
+        <div class="programs__card">
+          <img class="programs__card-img" src="images/program1.jpg" alt="Learning Activities">
+          <h3>Engaging Extracurricular Activities for Holistic Student Development</h3>
+          <p>Our scool offers modern facilities designed to enhances learning experience/</p>
+          <button class="programs_button">Learn More</button>
+        </div>
+
+        <div class="programs__card">
+           <img class="programs__card-img" src="images/program2.jpg" alt="Learning Activities">
+          <h3>Diverse Academic Programs Tailored to Student Interests and Goals</h3>
+          <p>We provide a wide range of academic programs to cater to every student./</p>
+          <button class="programs_button">Learn More</button>
+        </div>
+
+        <div class="programs__card">
+           <img class="programs__card-img" src="images/program3.jpg" alt="Learning Activities">
+          <h3>Engaging Extracurricular Activities for Holistic Student Development</h3>
+          <p>Our scool offers modern facilities designed to enhances learning experience/</p>
+          <button class="programs_button">Learn More</button>
+        </div>
+
+     </div>
+
+     </section>
+
+     <!-- HTML Elements & Images - Form Section -->
+      <section class="element">
+
+        <div class="element__left">
+          <div class="element__placeholder"></div>
+        </div>
+
+        <div class="element__right">
+          <h2>Sign Up Today!</h2>
+          <p class="element__subtitle">
+            Fill out the form below to sign up for our newsletter and receive updates
+          </p>
+          <form class="element__form">
+            <h3>Your Interests:</h3>
+            <ul class="element__list">
+              <li class="element__list-item">Web Development</li>
+              <li class="element__list-item">UI/UX Design</li>
+              <li class="element__list-item">Digital Marketing</li>
+            </ul>
+
+            <div class="element__form-group">
+              <label for="username">Username:</label>
+              <input type="text" id="username" placeholder="Enter username">
+            </div>
+
+            <div class="element__form-group">
+              <label for="course">Select Course:</label>
+              <select id="course">
+                <option value="">Choose a course...</option>
+                <option value="html">HTML & CSS</option>
+                <option value="js">Javascript</option>
+                <option value="react">React</option>
+              </select>
+            </div>
+
+            <button type="submit" class="element__button">Submit Form</button>
+
+          </form>
+        </div>
+
+      </section>
   </body>
 </html>
